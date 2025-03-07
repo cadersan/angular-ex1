@@ -14,6 +14,18 @@
     align-items: center;
     margin-bottom: 10px;
 }
+.buttonimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: rgb(148, 133, 98);
+    margin-bottom: 10px;
+    border-style: hidden;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .price {
     font-size: 18px;
@@ -40,4 +52,45 @@
 /* Remove the margin from the last child to avoid extra spacing */
 .child-container:last-child {
     margin-right: 0;
+}
+.window{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position:absolute;
+     right: 20px;
+    background-color: darkgray;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 40%;
+    left:30%;
+    align-items: center;
+    width: 100px;
+    background-color: blue;
+    color: white;
+   
+   
+    border-radius: 10%;
+
+}
+.TitleStayle{
+    width:  300px;
+    margin-top: 5%;
+     text-align: center;
+     align-items: center;
+     
+     background-color:antiquewhite;
+     color: black;
+   
+    
+    
+    
+
+
+
+
 }
